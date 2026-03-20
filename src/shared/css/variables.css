@@ -1,0 +1,56 @@
+/* ── Design tokens ── */
+:root {
+  /* Backgrounds */
+  --bg-primary: #0a0a0f;
+  --bg-card: #111118;
+  --bg-card-alt: #13131b;
+  --bg-card-hover: #15151e;
+  --bg-sidebar: #0d0d14;
+  --bg-input: #16161f;
+  --bg-input-focus: #1a1a25;
+  --bg-hover: rgba(255,255,255,0.03);
+
+  /* Borders */
+  --border-subtle: rgba(255,255,255,0.06);
+  --border-card: rgba(255,255,255,0.05);
+  --border-focus: rgba(200,170,110,0.4);
+
+  /* Text */
+  --text-primary: #e8e4dc;
+  --text-secondary: rgba(232,228,220,0.5);
+  --text-muted: rgba(232,228,220,0.3);
+  --text-placeholder: rgba(232,228,220,0.2);
+
+  /* Accent */
+  --accent: #c8aa6e;
+  --accent-glow: rgba(200,170,110,0.12);
+  --accent-hover: #d4b97a;
+
+  /* Status */
+  --clr-ok: #4ecb8d;
+  --clr-ok-bg: rgba(78,203,141,0.08);
+  --clr-mismatch: #e85d75;
+  --clr-mismatch-bg: rgba(232,93,117,0.08);
+  --clr-warning: #e8a849;
+  --clr-warning-bg: rgba(232,168,73,0.08);
+  --clr-info: #5b8def;
+  --clr-info-bg: rgba(91,141,239,0.08);
+  --clr-unmatched: #9b72f0;
+  --clr-unmatched-bg: rgba(155,114,240,0.08);
+
+  /* Error / Success */
+  --error: #e05252;
+  --error-bg: rgba(224,82,82,0.08);
+  --success: #5cb98a;
+  --success-bg: rgba(92,185,138,0.08);
+
+  /* Module accent colors */
+  --mod-blue: #5b8def;
+  --mod-emerald: #4ecb8d;
+  --mod-amber: #e8a849;
+  --mod-rose: #e85d75;
+  --mod-violet: #9b72f0;
+  --mod-cyan: #4cc9e8;
+  --mod-coral: #e87e5d;
+  --mod-teal: #4eab9c;
+}
